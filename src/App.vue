@@ -21,12 +21,13 @@ export default {
 
 
 <style scoped>
+
 #viewport {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  
   display: flex;
+  flex-grow: 1;
   font-family: Georgia;
 }
 

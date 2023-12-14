@@ -10,14 +10,14 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur earum eligendi dicta magni vel illo
       architecto maiores, explicabo consequatur, hic omnis ex, vero quod porro beatae! Nobis, beatae accusantium.</p>
     <nav id="links">
-      <!-- <ul> -->
+      <ul>
         <router-link v-bind:to="{name:'home'}">Home</router-link>
-        <router-link v-bind:to="{name:'About'}">About</router-link>
-        <!-- <li><a href="./components/EducationView.vue">Education</a></li>
-        <li><a href="./components/WorkHistory.vue">Experience</a></li>
-        <li><a href="./components/HobbiesView.vue">Hobbies</a></li>
-        <li><a href="./components/PortfolioView.vue">Portfolio</a></li> -->
-      <!-- </ul> -->
+        <router-link v-bind:to="{name:'about'}">About</router-link>
+        <router-link v-bind:to="{name:'education'}">Education</router-link>
+        <router-link v-bind:to="{name:'hobbies'}">Hobbies</router-link>
+        <router-link v-bind:to="{name:'work'}">Work</router-link>
+        <router-link v-bind:to="{name:'portfolio'}">Portfolio</router-link>
+      </ul>
     </nav>
   </section>
 </template>
@@ -52,7 +52,7 @@ nav ul {
 
 }
 
-nav ul li {
+nav ul router-link {
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ nav ul li {
   padding-top: 30px
 }
 
-nav a, nav a:visited {
+/* nav a, nav a:visited {
   text-decoration: none;
   color: black;
 }
@@ -68,5 +68,5 @@ nav a, nav a:visited {
 nav a:hover {
   color: #53a19b;
   padding-left: 5px;
-}
+} */
 </style>

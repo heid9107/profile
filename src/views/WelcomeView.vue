@@ -1,7 +1,7 @@
 <template>
   <section id="right-panel">
     <div id="welcome">
-      Welcome to my site
+      Welcome To My Site!
     </div>
   </section>
 </template>
@@ -14,20 +14,21 @@ export default {
   
 <style scoped>
 #right-panel {
-  background: url(../assets/DSC_5411.JPG)left / cover no-repeat;
-  /* display: flex;
-  flex-grow: 1; */
+  background: url(../assets/DSC_5411.JPG)right / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-/* #welcome {
-  
-  
-  text-align: center;
+#welcome {
   font-size: 2rem;
   padding: 20px;
   border-radius: 10px;
- 
+  background-color: rgb(179, 227, 241);
+  width: 35%;
+  height: 5%;
+  display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 </style>

@@ -3,7 +3,7 @@ import WelcomeView from '../views/WelcomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import EducationView from '../views/EducationView.vue'
 import HobbiesView from '../views/HobbiesView.vue'
-import WorkView from '../views/EmploymentHistory.vue'
+import WorkView from '../views/WorkView.vue'
 import PortfolioView from '../views/PortfolioView.vue'
 
 const routes = [
